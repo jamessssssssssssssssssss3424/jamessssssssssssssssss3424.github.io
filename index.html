@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noaré - All Links</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Cormorant+Garamond:wght@600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <style>
+        :root {
+            --bg-color: #121212;
+            --text-color: #f0f0f0;
+            --primary-accent: #D4AF37; /* Gold */
+            --button-bg: #222222;
+            --font-heading: 'Cormorant Garamond', serif;
+            --font-body: 'Inter', sans-serif;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: var(--font-body);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .profile-picture {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid var(--primary-accent);
+            margin-bottom: 20px;
+        }
+
+        .profile-name {
+            font-family: var(--font-heading);
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+
+        .profile-tagline {
+            font-size: 1rem;
+            color: #aaa;
+            margin-bottom: 30px;
+        }
+
+        .links-container a {
+            display: block;
+            background-color: var(--button-bg);
+            color: var(--text-color);
+            text-decoration: none;
+            padding: 18px 20px;
+            margin: 15px 0;
+            border-radius: 8px;
+            border: 1px solid #444;
+            font-weight: 500;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+        }
+
+        .links-container a:hover {
+            background-color: var(--primary-accent);
+            color: var(--bg-color);
+            transform: scale(1.03);
+            border-color: var(--primary-accent);
+        }
+
+        .social-icons {
+            margin-top: 40px;
+        }
+
+        .social-icons a {
+            color: #888;
+            font-size: 1.5rem;
+            margin: 0 15px;
+            transition: color 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            color: var(--primary-accent);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="https://i.imgur.com/eBcxm3s.png" alt="Noaré Logo" class="profile-picture">
+        
+        <h1 class="profile-name">Noaré</h1>
+        <p class="profile-tagline">Luxury You Can Wear</p>
+
+        <div class="links-container">
+            <a href="https://shopee.co.id/your-shopee-username" target="_blank">Shop on Shopee</a>
+            <a href="https://www.tiktok.com/@your-tiktok-username" target="_blank">Follow on TikTok</a>
+            <a href="https://www.instagram.com/noare.id" target="_blank">Explore on Instagram</a>
+            <a href="https://wa.me/6281234567890" target="_blank">Contact us on WhatsApp</a>
+        </div>
+
+        <div class="social-icons">
+             <a href="https://www.instagram.com/noare.id" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://shopee.co.id/your-shopee-username" target="_blank" aria-label="Shopee"><i class="fa-solid fa-cart-shopping"></i></a>
+            <a href="https://www.tiktok.com/@your-tiktok-username" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+        </div>
+
+    </div>
+
+</body>
+</html>
